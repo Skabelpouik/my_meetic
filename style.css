@@ -1,0 +1,38 @@
+body {
+	background-image: url("images/pink-love.jpg");
+	background-size: cover;
+}
+
+section {
+	width: 1100px;
+	margin: auto;
+	padding: 15px 15px 15px 15px;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 25px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+div {
+	font-size: 16px;
+	padding: 15px 15px 15px 15px;
+}
+
+.center {
+	text-align: center;
+}
+
+#bouton_valid {
+	font-size: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 3px 10px black;
+}
+
+label {
+	display: inline-block;
+	width: 150px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>My Meetic - Inscription</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <section>
+            <div id="resultat"></div>
+        	<h1> Formulaire d'inscription</h1>
+        <form id="form_inscription">
+            <div>
+                <label>Nom:</label><input type="text" name="nom" id="nom"/>
+            </div>
+            <div>
+                <label>Prénom:</label><input type="text" name="prenom" id="prenom"/>
+            </div>
+            <div>
+                <label for="birthday">Date de naissance:</label><input type="date" name="birthday" id="birthday"/>
+            </div>
+            <div>
+                <label>Genre:</label><input type="radio" name="genre" value="homme" id="homme"/><label for="homme">Homme</label>
+                <input type="radio" name="genre" value="femme" id="femme"/><label for="femme">Femme</label>
+                <input type="radio" name="genre" value="autre" id="autre" checked /><label for="autre">Autre</label>
+            </div>
+            <div>
+                <label>Ville:</label><input type="text" name="ville" id="ville"/>
+            </div>
+
+            <div>
+                <label>Email:</label><input type="text" name="email" id="email"/>
+            </div>
+            <div>
+                <label>Mot de Passe:</label><input type="password" name="password" id="password">
+            </div>
+            <!-- <div>
+                <label>Loisirs:</label><input type="checkbox" name="jeux video" id="jeux_video"/><label for="jeux_video">Jeux video</label>
+                <input type="checkbox" name="cinema" id="cinema"/><label for="cinema">Cinema</label>
+                <input type="checkbox" name="lecture" id="lecture"/><label for="lecture">Lecture</label>
+                <input type="checkbox" name="sport" id="sport"/><label for="sport">Sport</label>
+                <input type="checkbox" name="informatique" id="informatique"/><label for="informatique">Informatique</label>
+            </div> -->
+            <div class="center">
+                <input id="bouton_valid" type="submit" name="validation" value="S'inscrire"/>
+            </div>
+        </form>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+         <script type="text/javascript" src="inscription.js"></script>
+    </body>
+</html>
